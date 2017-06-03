@@ -31,7 +31,7 @@ defmodule Prototest.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    []
+    [{:money, "~> 1.2.1"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
